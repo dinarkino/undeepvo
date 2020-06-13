@@ -28,3 +28,5 @@ class UnDeepVO(nn.Module):
 
     def forward(self, x):
         return self.depth(x), self.pose(x)
+
+    
